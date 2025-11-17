@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+     <head> <title>hotel</title>
+	      <link rel="stylesheet" href="css.css">
+   
+
+      </head> 
+<body> 
+<header>
+	<img src=".\Houston.png" width="200" height="150">
+	</header>
+<h1>Facilities</h1>
+
+
+
+<h2>Facilities at Houston Hotel</h2>
+ <p><ul>
+<li><b>Luxury Rooms</b> – Air-conditioned, spacious, with modern décor and comfortable bedding<br><br></li>
+ <li><b>Free Wi-Fi </b>– High-speed internet access throughout the hotel<br><br></li>
+<li><b>Daily Housekeeping</b>  – Clean and hygienic rooms maintained by trained staff<br><br></li>
+ <li><b>Restaurant & Room Service</b> – Delicious meals served in-house or delivered to your room<br><br></li>
+<li><b>Spa & Wellness Center</b> – Relaxing treatments and massages available<br><br></li> 
+<li><b>Swimming Pool</b> – Outdoor pool with lounge chairs and poolside service<br><br></li>
+<li><b>Secure Parking</b> – Ample space with 24/7 surveillance<br><br></li> 
+<li><b>24-Hour Reception</b> – Friendly staff available for check-in, check-out, and guest support<br><br></li>
+<li><b>Concierge Services</b> – Travel assistance, local tips, and booking support<br><br></li> 
+ <li><b>Family-Friendly Amenities</b> – Extra beds, kids’ meals, and safe play areas<br><br></li>
+<li><b>Safety & Securit</b>y – CCTV, fire alarms, and emergency protocols in place<br><br></li> 
+ <li><b>Laundry Service</b> – Quick and professional washing and ironing<br><br></li>
+ <li><b>Conference Room</b> – Ideal for meetings, events, and business gatherings<br><br></li>
+<li><b>Balcony Views</b> – Select rooms with scenic city or nature views<br><br></li> </ul></p>
+
+
+
+<a href="hotel.html">Back to home page</a><br><br>
+<footer>
+&copy; Houston12@gmail.com| contact no: 0759056093| Trincomalee. main street 03	<br><br>
+		<div class="newsletter">
+        <h3>Subscribe to our Newsletter</h3>
+        <input type="email" id="email" placeholder="Enter your email">
+        <button onclick="subscribe()">Subscribe</button>
+        <p id="subscribeMessage"></p>
+    </div>
+<script>
+        
+        function subscribe() {
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('subscribeMessage');
+            
+            if (email) {
+                message.textContent = `Thank you for subscribing, ${email}!`;
+                message.style.color = 'green';
+            } else {
+                message.textContent = 'Please enter a valid email address.';
+                message.style.color = 'red';
+            }
+        }
+    </script>
+</footer>
+
+
+
+</body>
+</html>

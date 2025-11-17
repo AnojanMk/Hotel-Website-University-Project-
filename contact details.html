@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+     <head> <title>hotel</title>
+	      <link rel="stylesheet" href="css.css">
+   
+      </head> 
+<body> 
+	<header>
+	<img src=".\Houston.png" width="200" height="150">
+	</header><br><br>
+	<h2>Contact Details</h2>
+	<li>Address:</li><p>Trincomalee. main street 03</p>
+	<li>Contact no:</li><p>0759056093</p>
+	<li>E mailAddress:</li><p>Houston12@gmail.com</p>
+	
+	<form action="" method="get">
+		<h1>Inquiry Form</h1>
+
+		<label for="name"><b> Name*</b></label>
+		<input type="text" name="name" size="15"><br><br>
+
+		<label for="Email Address"><b>Email Address*</b></label>
+		<input type="text" name="Email Address" size="25"><br><br>
+
+		<label for="contact no"><b>Contact No*</b></label>
+		<input type="text" name="contact no" size="15"><br><br>
+		
+		<label for="subject"><b> Subject*</b></label>
+		<input type="text" name="subject" size="25"><br><br>
+
+		<label for="message"><b>Message*</b></label>
+		<input type="text" style="padding:50px;" name="message" size="20"><br><br>
+
+		<label for="are you a "><b>Are You a*</b></label>
+		<input type="radio" name="new customer">New Customer
+		<input type ="radio" name="Returning Customer">Returning Customer</br>
+		</br>
+		 
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.184125325987!2d81.22888837054535!3d8.578288109623669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afbbcbf13eb8e87%3A0xfefe53b17ac225c4!2sMain%20St%2C%20Trincomalee!5e0!3m2!1sen!2slk!4v1743264596131!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+		
+		
+		
+		<input type="submit" name="submit" value="submit" size="6"><br><br>	
+	<a href="hotel.html">Back to home page</a><br><br>
+<footer>
+&copy; Houston12@gmail.com| contact no: 0759056093| Trincomalee. main street 03	<br><br>
+
+
+		 <div class="newsletter">
+        <h3>Subscribe to our Newsletter</h3>
+        <input type="email" id="email" placeholder="Enter your email">
+        <button onclick="subscribe()">Subscribe</button>
+        <p id="subscribeMessage"></p>
+    </div>
+<script>
+        
+        function subscribe() {
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('subscribeMessage');
+            
+            if (email) {
+                message.textContent = `Thank you for subscribing, ${email}!`;
+                message.style.color = 'green';
+            } else {
+                message.textContent = 'Please enter a valid email address.';
+                message.style.color = 'red';
+            }
+        }
+    </script>
+
+
+</footer>
+
+
+
+
+
+	</form>
+</body>
+</html>	
