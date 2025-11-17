@@ -13,8 +13,11 @@ Features
 - Optional multi-language support (e.g., Tamil and English)
   
 Tech Stack
+
 HTML
+
 CSS 
+
 JAVASCRIPT
 
 
