@@ -11,8 +11,8 @@ Features
 - Responsive layout for mobile, tablet, and desktop
 - Optional admin panel for managing rooms, bookings, and messages
 - Optional multi-language support (e.g., Tamil and English)
-  
-Tech Stack
+   
+**Tech Stack**
 
 HTML
 
